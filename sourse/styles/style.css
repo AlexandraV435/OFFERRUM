@@ -169,7 +169,8 @@ main {
   color: #FFFFFF;
   font-family: Inter;
   font-weight: 300;
-  align-self: center; }
+  align-self: center;
+  width: 100%; }
   main h1 {
     font-weight: 300;
     margin-top: 20%;

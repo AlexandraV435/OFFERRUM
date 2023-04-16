@@ -13,7 +13,6 @@ let learning__modal = document.getElementById('learning__modal')
 let learning = document.getElementById('learning')
 let learning_modal = document.getElementById('learning_modal')
 let learning_show = 'hide'
-
 btn_panel.addEventListener('click', show_modal)
 cross.addEventListener('click', hide_modal)
 button__start.addEventListener('click', show_myModal)
