@@ -1,0 +1,107 @@
+doctype html
+
+html
+  head
+  meta(charset = 'utf-8')
+  meta(name='viewport', content="initial-scale=1.0, width=device-width")
+  link(rel="stylesheet", href="./sourse/styles/style.css")
+  title NFT
+  body
+    div(id='learning__modal')
+      div(class='learning__question')
+        span(сlass='learning__ellipse')
+        h1 Что даст тебе обучение?
+      div(class='wrapper_modal')
+        div
+          div 
+            div(class='learning__main')
+              div(class='wrapper_img')
+                img(src="./sourse/styles/images/smile-1.png", alt="smile" class='blur')
+                img(src="./sourse/styles/images/smile-1.png", alt="smile")
+              p Откроешь свой первый криптокошелек и научишься с ним работать
+            div(class='learing__background')
+          div 
+            div(class='learning__main')
+              div(class='wrapper_img')
+                img(src="./sourse/styles/images/smile-3.png", alt="smile" class='blur')
+                img(src="./sourse/styles/images/smile-3.png", alt="smile")
+              p 
+                |Построишь план 
+                br
+                |по быстрому приумножению 
+                br
+                |заработанных средств
+            div(class='learing__background')
+        div
+          div
+            div(class='learning__main')
+              div(class='wrapper_img')
+                img(src="./sourse/styles/images/smile-2.png", alt="smile" class='blur')
+                img(src="./sourse/styles/images/smile-2.png", alt="smile")
+              p Поймёшь, как выбирать правильные дропы
+            div(class='learing__background')
+          div
+            div(class='learning__main')
+              div(class='wrapper_img')
+                img(src="./sourse/styles/images/smile-4.png", alt="smile" class='blur')
+                img(src="./sourse/styles/images/smile-4.png", alt="smile")
+              p 
+                |Узнаешь кто такие 
+                br
+                |холдеры и флипперы
+            div(class='learing__background')
+        div(class='ellipse-down')
+    div(id='myModal')
+      img(class='myModal__ellipse' src='./sourse/styles/images/blur.png' alt='ellipse')
+      div(class='myModal__main')
+        button(id='myModal__cross')
+          img(class='myModal__cross' src='./sourse/styles/images/cross.png' alt='cross')
+        h2 Начни прямо сейчас!
+        p Получи все нужные навыки для заработка на NFT всего за 28 дней!
+        form  
+          input(placeholder='Ваш email')
+          button(type='button' class='myModal__pay') Оплатить
+      img(class='myModal__ellipse-down' src='./sourse/styles/images/blur-down.png' alt='ellipse-down')
+    div(class='ellipse ellipse__header')
+    header(id='header')
+      div(class='logo' id='logo')
+        div
+        div NFT
+      div(class='panel') 
+        p Главная
+        p(id='learning')|Что даст обучение
+        button(class='button button__profile') Личный кабинет
+      div(class='btn__panel' id='btn__panel')
+    div(class='modal' id='modal')
+      div 
+        img( src='./sourse/styles/images/cross.png' id='cross' class='cross' alt='cross')
+      div(class='logo')
+        div
+        div NFT
+      div
+        p Главная
+        p(id='learning_modal')|Что даст обучение
+        button(class='button__profile button__modal') Личный кабинет
+
+    main(id='main')
+      div(class='information')
+        div(class='elipse ellipse__information')
+        h1 
+          | Не упусти 
+          br
+          |возможность войти 
+          br
+          |в  
+          strong прибыльную нишу
+        div(class='ellipse ellipse__main-small')
+        img(src="./sourse/styles/images/businessman.png", alt="businessman" class='image__businessman-small')
+        p
+          | Получи все нужные навыки для заработка
+          br
+          | на NFT всего за 28 дней!
+        button(class='button button__start' id='button__start') Начать зарабатывать на NFT
+      div(class='businessman')
+        img(src="./sourse/styles/images/businessman.png", alt="businessman" class='image__businessman-big')
+        div(class='ellipse ellipse__main')
+
+    script(src="./dist/bundle.js") 
